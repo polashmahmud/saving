@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'Phone:' => 'Phone:',
+    'Member Create' => 'Member Create',
+    'Member Name' => 'Member Name',
+    'Member Email' => 'Member Email',
+    'Member Phone' => 'Member Phone',
+    'Avatar' => 'Avatar',
+    'Status' => 'Status',
+    'Active' => 'Active',
+    'Suspend' => 'Suspend',
+    'EqualTo (confirm)' => 'EqualTo (confirm)',
+    'password' => 'password',
+    'confirm password' => 'confirm password',
+    'Submit Entry' => 'Submit Entry',
+    'Edit Entry' => 'Edit Entry',
+    'New Permission' => 'New Permission',
+    'Name' => 'Name',
+    'Title' => 'Title',
+    'Permission List' => 'Permission List',
+    'Role' => 'Role',
+    'Option' => 'Option',
+    'Role Name' => 'Role Name',
+    'Display Name' => 'Display Name',
+];
