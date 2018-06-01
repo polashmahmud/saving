@@ -33,6 +33,11 @@ class User extends Authenticatable implements HasMedia
         'password', 'remember_token',
     ];
 
+    public function accounts()
+    {
+        return $this->hasMany('App\Account', 'user_id', 'id');
+    }
+
     public function registerMediaCollections()
     {
         $this

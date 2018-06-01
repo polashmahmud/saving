@@ -26,6 +26,55 @@
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-book"></i>
+                    <span class="nav-label">Accounts</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    {{--<li>--}}
+                        {{--<a href="{{ route('package.create') }}">New Package</a>--}}
+                    {{--</li>--}}
+                    <li>
+                        <a href="{{ route('account.index') }}">List Account</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-money"></i>
+                    <span class="nav-label">Collection</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    {{--<li>--}}
+                        {{--<a href="{{ route('package.create') }}">New Package</a>--}}
+                    {{--</li>--}}
+                    <li>
+                        <a href="{{ route('collection.index') }}">List Collection</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-cubes"></i>
+                    <span class="nav-label">Package</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a href="{{ route('package.create') }}">New Package</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('package.index') }}">List Package</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:;"><i class="sidebar-item-icon fa fa-bookmark-o"></i>
+                    <span class="nav-label">Debit Credit</span><i class="fa fa-angle-left arrow"></i></a>
+                <ul class="nav-2-level collapse">
+                    <li>
+                        <a href="{{ route('debit-credit.create') }}">New Debit Credit</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('debit-credit.index') }}">List Debit Credit</a>
+                    </li>
+                </ul>
+            </li>
 
             <li class="heading">Administrator</li>
             <li>

@@ -17,6 +17,10 @@ Route::group(
         Route::get('/home', 'HomeController@index')->name('home');
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
         Route::resource('member', 'MemberController');
+        Route::resource('package', 'PackageController');
+        Route::resource('account', 'AccountController');
+        Route::resource('collection', 'CollectionController');
+        Route::resource('debit-credit', 'DebitCreditController');
 
         Route::prefix('admin')->group(function () {
             Route::resource('role', 'RoleController');
